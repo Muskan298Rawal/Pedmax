@@ -1,0 +1,258 @@
+body {
+  background-color: #282837;
+}
+.link_list {
+  color: white;
+}
+.navbar {
+  background-color: #38384efd;
+}
+.btn_login {
+  background-color: #1d6373 !important;
+  color: white !important;
+}
+.btn_sign {
+  background-color: #fd7657 !important;
+  color: white !important;
+}
+.nav-link {
+  font-size: large;
+  color: white;
+}
+
+.maintxt img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  margin-top: 15px;
+}
+.maintxt p {
+  margin-top: 5px;
+}
+.maintxt {
+  color: white;
+  width: 700px;
+  height: 132px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.btn_modal {
+  background-color: #19a5b8 !important;
+  color: white !important;
+}
+.modal_login {
+  background-color: #282837;
+  color: white;
+}
+.modal_login h4 {
+  color: red;
+}
+.modal_login_h2 {
+  color: red;
+}
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.select {
+  background-color: aliceblue;
+  margin-top: 7px;
+  height: 30px;
+  width: 255px;
+}
+.text-over-img {
+  margin-left: 5px;
+}
+.modal_login input {
+  border-radius: 4px;
+  border-style: none;
+}
+.modal_login select {
+  border-radius: 4px;
+  border-style: none;
+}
+.list input {
+  background-color: #474761fd;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+  top: 90px;
+  height: 30px;
+  width: 250px;
+  margin-left: 14px;
+  /* margin-right: 1000px; */
+}
+.list h1 {
+  color: white;
+}
+.list h6 {
+  color: #fd7657;
+  margin-top: 70px;
+  margin-left: 14px;
+}
+.list_newdiv {
+  background-color: #38384efd;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  margin-left: 14px;
+  color: white;
+  font-size: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2px;
+}
+
+.grid-container > div {
+  font-size: 18px;
+}
+
+.grid-container item1 {
+  width: 20%;
+}
+
+.grid-container item2 {
+  width: 50%;
+}
+
+.grid-container item3 {
+  width: 30%;
+}
+
+.color_btn_1 {
+  margin-left: 0px;
+}
+
+.tabs {
+  margin-top: 15px;
+  height: 300px;
+  width: 300px;
+  color: white;
+  margin-left: 10px;
+}
+
+.individual {
+  color: white;
+  background-color: #38384efd;
+}
+
+.right_bar_1 {
+  height: 300px;
+  width: 270px;
+  margin-right: 15px;
+  background-color: #38384efd;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+}
+
+.right_bar_1 h6 {
+  margin-top: 30px;
+  margin-left: 18px;
+}
+
+.select_right {
+  width: 250px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #474761fd;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+}
+
+.right_bar_1 pre {
+  margin-left: 10px;
+  color: white;
+}
+
+.btn_right {
+  width: 200px;
+  background-color: teal !important;
+  color: white !important;
+}
+
+.right_2 {
+  background-color: #474764fd;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+  margin-left: 14px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.accordian {
+  height: 30px;
+  width: 250px;
+  background: #38384efd;
+  margin-top: 2px;
+  position: relative;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  padding-left: 7px;
+  padding-top: 3px;
+  list-style: none;
+}
+
+.accordian:hover {
+  background-color: rgb(76, 76, 236);
+}
+.accordian p {
+  margin-left: 2px;
+}
+.fa {
+  float: right;
+  margin-right: 2px;
+  margin-top: 2px;
+  padding-right: 3px;
+}
+.dropdown {
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  width: 242px;
+  background-color: #51516efd;
+  margin-top: 2px;
+  border-radius: 7px;
+  padding-left: 3px;
+  padding-top: 3px;
+  border-style: none;
+}
+
+.dropdown:hover {
+  background-color: rgb(76, 76, 236);
+}
+.drrop {
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  width: 220px;
+  background-color: #6e6e97fd;
+  border-radius: 7px;
+  padding-left: 3px;
+  padding-top: 3px;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active-topnav .text-capitalize {
+  color: white !important;
+  border-bottom: 3px solid #19a5b8;
+  border-radius: 0px;
+}
